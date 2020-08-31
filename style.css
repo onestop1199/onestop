@@ -106,6 +106,7 @@
 }
 .services{
     margin-top: 40px;
+    padding-left:100px;
 }
 
 .icon{
@@ -122,6 +123,9 @@
     margin-top: 20px ;
     color: #ccc;
     
+}
+.col-md-3{
+    margin: 10px;
 }
 .services .col-md-3:hover{
     color: #fff;
