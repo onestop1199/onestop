@@ -5,7 +5,7 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 
-		$to = 'info@theonestop.in'; 
+		$to = 'ganeshlb1234@gmail.com'; 
 		$subject = 'Message from Contact Demo ';
 		$message= "Name: ".$name. "\n" . "Phone: ".$number. "\n". "Wrote the following: ". "\n\n".$message;
         $headers= "From: ".$email;
