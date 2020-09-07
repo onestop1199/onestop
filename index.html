@@ -10,6 +10,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
 </head>
 <body>
+    
     <!----navigation bar---->
     <section id="nav-bar">
        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
@@ -18,13 +19,13 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">ABOUT US</a>
+        <a class="nav-link" href="about.html">ABOUT US</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -32,14 +33,13 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="engineering.html">ENGINEERING</a>
-          <a class="dropdown-item" href="#">BUSSINESS ADMINISTRATION</a>
+          <a class="dropdown-item" href="bba.html">BUSSINESS ADMINISTRATION</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">VISUAL ARTS</a>
-        <a class="dropdown-item" href="#">BACHELOR OF SCIENCE</a>
+          <a class="dropdown-item" href="va.html">VISUAL ARTS</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">CONTACT</a>
+        <a class="nav-link" href="contact.html">CONTACT</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -49,6 +49,8 @@
   </div>
 </nav>
 </section>
+    
+    
     
     <!----SLIDER----->
 <div id="slider">
@@ -94,11 +96,10 @@
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-    <h1>ABOUT US</h1>
-    <div class="about-content">We at ONE STOP will help and serve the users who are browsing for online courses and are confused choosing them. As our website designation defines what we work for, we at ONE STOP will provide the users a list of online courses available on different websites offered by different companies together at one place. We collect the best available online courses and categorize them according to the fields of education and pricing. Both the paid as well as free courses are available on our website which makes it easier for the user to choose the right option following their need. We filter the foremost accessible courses and make them available for users providing them links to access the actual website or company. The course link we provide the user will redirect them to the company’s website page where they can apply to it.
-We also conduct online quizzes every month for engineering students of every stream and provide them with certificates on winning and participating.
+    <h1 style="font-weight: bold">ONESTOP</h1>
+    <div class="about-content">We at ONE STOP will help and serve the users who are browsing for online courses and are confused choosing them. As our website designation defines what we work for, we at ONE STOP will provide the users a list of online courses available on different websites offered by different companies together at one place. We collect the best available online courses and categorize them according to the fields of education and pricing. Both the paid as well as free courses are available on our website which makes it easier for the user to choose the right option following their need. We filter the foremost accessible courses and make them available for users providing them links to access the actual website or company. 
     </div><br>
-    <button type="button" class="btn btn-primary">Read more>></button>
+   <a href="about.html"> <button type="button" class="btn btn-primary">Read more>></button></a>
     </div>
  <div class="col-md-6 skills-bar">
      <p>ENGINEERING</p>
@@ -113,14 +114,19 @@ We also conduct online quizzes every month for engineering students of every str
     <div class="progress">
         <div class="progress-bar" style="width:75%">75%</div>
     </div>
-     <p>BACHELOR OF SCIENCE</p>
-    <div class="progress">
-        <div class="progress-bar" style="width:50%">50%</div>
-    </div>
+
+     
+     <div class="notification">
+         <h2 style="text-align: center">NOTIFICATIONS</h2>
+         <a href="#"><marquee behaviour="scroll" direction="up" scrollamount="4" class="align"><br><br><br><i class="fa fa-hand-o-right" aria-hidden="true"></i>   HIRING CAMPUS AMBASSADORS   <i class="fa fa-hand-o-left" aria-hidden="true"></i> <br>
+             <i class="fa fa-hand-o-right" aria-hidden="true"></i>   QUIZZES   <i class="fa fa-hand-o-left" aria-hidden="true"></i></marquee></a>
+         
+     </div>
 </div>
 </div>
 </div>
 </section>
+    
     <!------Services---->
     <section id="services">
         <div class="container">
@@ -143,31 +149,25 @@ We also conduct online quizzes every month for engineering students of every str
                     <p>The BBA course is the gateway to numerous job opportunities in a plethora of sectors like Marketing, Education, Finance, Sales, and Government to name just a few. </p>
                     </a></div>
                 
-                    <div class="col-md-3 text-center"> <a href="visual.html">
+                    <div class="col-md-3 text-center"> <a href="va.html">
                 <div class="icon">
                     <i class="fa fa-paint-brush" ></i>
                 </div> 
                     <h3>VISUAL ARTS</h3>
                         <p>The visual arts are art forms such as painting, drawing, printmaking, sculpture, ceramics, photography, video, filmmaking, design, crafts, and architecture. </p></a>
                 </div>
-                
-                <div class="col-md-3 text-center"> <a href="bsc.html">
-                <div class="icon">
-                    <i class="fa fa-flask" ></i>
-                </div> 
-                    <h3>BACHELOR OF SCIENCE</h3>
-                    <p>It is a 3-year undergraduate course for students who wish to make a career in science and research. BSc degree is a foundation course, providing theoretical and practical knowledge</p></a>
-                </div>
+            
             </div>
         </div>
     </section>
+   
 <!---------contact----->
     <section id="contact">
         <div class="container">
             <h1 >CONTACT US</h1>
             <div class="row">
                 <div class="col-md-6">
-                    <form class="contact-form" role="form" method="post" action="contact.php">
+                    <form class="contact-form" role="form" method="post" action="https://script.google.com/macros/s/AKfycbzY7aGzRPn4LmT_QII2_aD5ehBtb3yS6JqL_N81/exec">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
                         </div>
@@ -180,7 +180,7 @@ We also conduct online quizzes every month for engineering students of every str
                          <div class="form-group">
                              <textarea class="form-control"  rows="4" id="message" name="message" placeholder="Your Message" ></textarea>
                         </div>
-                        <button type="submit" name="sendMailBtn" class="btn btn-primary">SEND MESSAGE</button>
+                        <button type="submit"  class="btn btn-primary">SEND MESSAGE</button>
                     </form>
                 </div>
                 <div class="col-md-6 contact-info">
@@ -196,6 +196,7 @@ We also conduct online quizzes every month for engineering students of every str
             </div>
         </div>
     </section>
+    
 <!-----footer end----->
    <script src="js/smooth.js"></script>
     <script>
@@ -203,4 +204,3 @@ We also conduct online quizzes every month for engineering students of every str
     </script>
 </body>
 </html>
-    
