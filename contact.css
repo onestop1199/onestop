@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: lightgrey;
+}
+.navbar-brand img{
+    height:50px;
+    padding-left:50px; 
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align:left;
+    font-weight: bold;
+    color: black!important;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+.navbar-toggler{
+    border: none!important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/*-----SERVICES---*/
+#services{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(WEB/1.jpg);
+    background-size:cover;
+    background-position: center;
+    color:#efefef !important;
+    background-attachment: fixed;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+#services h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #efefef!important;
+    font-size: 42px;
+}
+#services h2{
+    text-align: center;
+    color: #efefef!important;
+}
+
+
+#services h1::after{
+   content:'';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+.services{
+    margin-top: 40px;
+}
+
+
+/*----------contact us----*/
+#contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 130px;
+    color: white;
+}
+
+#contact h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#contact h1::after{
+   content:'';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+.contact-form{
+    padding-top:30px;
+    padding-left: 70px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder{
+    color: crimson !important;
+}
+
+.follow{
+    color: white;
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+}
+
+.follow .fa {
+    font-size:20px;
+   
+}
+.media{
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    margin:15px;
+}
+.media .fa{
+    font-size: 50px;
+     padding:10px;
+     color: white;
+}
+.media .fa:hover{
+    color: aqua;
+}
+
+

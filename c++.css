@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color:lightgrey;
+}
+.navbar-brand img{
+    height:50px;
+    padding-left:50px; 
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align:left;
+    font-weight: bold;
+     color: black!important;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+.navbar-toggler{
+    border: none!important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/*-----SERVICES---*/
+#services{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(cse/c++1.jpg);
+    background-size:cover;
+    background-position: center;
+    color:#efefef !important;
+    background-attachment: fixed;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+#services h1{
+    text-align: center;
+    color: #efefef!important;
+    font-size: 42px;
+}
+#services h2{
+    text-align: center;
+    color: #efefef!important;
+}
+
+
+#services h1::after{
+   content:'';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+.services{
+    margin-top: 40px;
+}
+
+.python{
+    background: rgba(50,0,0,0.4);
+    margin: 15px;
+    border-radius: 10px;
+    height: 230px;
+    width: 630px;
+}
+.paid{
+    background: rgba(0,50,0,0.4);
+    margin: 15px;
+    border-radius: 10px;
+    height: 230px;
+    width: 630px;
+}
+
+.circle img{
+    height: 200px;
+    width: 200px;
+    float:left;
+    border-radius: 50%;
+    margin:10px;
+    shape-outside: circle();
+}
+
+
+/*-----hover has to be done or not ------------*/
+.text h2{
+    font-size: 24px;
+    text-align: center;
+    margin:10px;
+}
+.text p{
+    font-size:16px;
+    margin:10px;
+}
+
+/*----------contact us----*/
+#contact{
+    background: #696969;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    color: #777;
+}
+
+#contact h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#contact h1::after{
+   content:'';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+}
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder{
+    color: crimson !important;
+}
+
+.follow{
+    color: white;
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+}
+
+.follow .fa {
+    font-size:20px;
+   
+}
+.media{
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    margin:15px;
+}
+.media .fa{
+    font-size: 50px;
+     padding:10px;
+     color: white;
+}
+.media .fa:hover{
+    color: aqua;
+}
+
+
+/*----slider---*/
+#sites{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(cse/mysql1.jpg);
+    background-size:cover;
+    background-position: center;
+    color:#efefef !important;
+    background-attachment: fixed;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+   
+            .hi-slide { position: relative; width: 754px; height: 292px; margin: 10px auto 0; }
+            
+.hi-slide .hi-next,
+.hi-slide .hi-prev 
+            { position: absolute;
+              top: 50%; 
+              width: 40px;
+              height: 40px; 
+              margin-top: -20px;     
+                border-radius: 50px; 
+                 
+                
+              line-height: 40px;
+              text-align: center; 
+              cursor: pointer;
+              background-color: #fff; 
+              color: black;               
+              transition: all 0.6s;
+              font-size: 20px; 
+                font-weight: bold;
+            }
+           .hi-slide .hi-next:hover, 
+            .hi-slide .hi-prev:hover 
+            {
+            opacity: 1; 
+            background-color: #fff;  
+            }
+            
+           .hi-slide .hi-prev { left: -60px; }
+            
+    .hi-slide .hi-prev::before { content: '<'; }
+    .hi-slide .hi-next { right: -60px; }
+    .hi-slide .hi-next::before { content: '>'; }
+    
+            .hi-slide > ul
+                    { 
+                        list-style: none; 
+                        position: relative;
+                        width: 754px; 
+                        height: 292px; 
+                        margin: 0;
+                        padding: 0;
+            }
+            
+            
+        .hi-slide > ul > li {
+            overflow: hidden; 
+            position: absolute; 
+            z-index: 0; 
+            left: 377px;
+            top: 146px; 
+            width: 0; 
+            height: 0; 
+            margin: 0; 
+            padding: 0;         
+            background-color: rgba(0,0,20,0.5);
+            cursor: pointer; }
+            
+        .hi-slide > ul > li > img { 
+            width: 230px; height:230px; background-position: center;}
+.hi-slide > ul > li > h3{
+    padding: 10px;
+    text-align: center;
+    color:#efefef !important;
+}
+.hi-next h3{
+    color: aqua !important;
+}
